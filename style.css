@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Montserrat&display=swap');
+body{
+    background-color:bisque 
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 70px;
+    background-color: black;
+}
+nav ul li{
+    padding: 0 10px;
+}
+.navbar img{
+    width: 47px;
+}
+.container{
+    min-height: 75vh;
+    font-family: 'IBM Plex Serif', serif;
+    /* background-image: url(images/white-music-headphones-disk-wallpaper-preview.jpg); */
+    background-image: url(images/music-women-headphones-model-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    color: white;
+    margin: 15px 180px;
+}
+.bottom{
+    position: sticky;
+    height: 140px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#progressBar{
+    width: 75vw;
+}
+.icons{
+    margin-top: 15px;
+}
+.fa-3x,.fa-2x,#progressBar{
+    padding: 5px;
+    cursor: pointer;
+}
+/* .songs{
+    width: 100%;
+} */
+.songs h1{
+    padding: 8px;
+}
+.songItemsContainer{
+    margin: 30px;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.songItems{
+    height: 50px;
+    display: flex;
+    background-color: #fff;
+    color:#000;
+    width: 85%;
+    margin: 12px 5px;
+    padding: 5px 20px ;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+.songItems img{
+    width: 45px;
+    border-radius: 50%;
+}
+.song-gif{
+    position: absolute;
+    left: 12%;
+    opacity: 0;
+    transform: opacity 1s ease-in;
+}
