@@ -89,5 +89,20 @@ nav ul li{
     position: absolute;
     left: 12%;
     opacity: 0;
-    transform: opacity 1s ease-in;
+    transform: opacity 0.3s ease-in;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+@media only screen and (max-width:1000px) {
+    .songItems{
+        width: 65vw;
+    }
+    .songItemsContainer{
+        max-width: 100%;
+    }
+    .container{
+        background-position: center;
+        margin: 8px;
+    }
+
 }

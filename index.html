@@ -27,31 +27,31 @@
                 <div class="songItemsContainer">
                     <div class="songItems">
                         <img src="cover/wallermen" alt=""><span>Wellerman</span><span>05:34</span>
-                        <span><i class="fa-solid fa-2x fa-circle-play"></i></span>
+                        <span><i class="fa-solid fa-2x fa-circle-play songPlay" id=""></i></span>
                     </div>
                     <div class="songItems">
                         <img src="cover/maiyyamainu.jpg" alt=""><span>Maiyya Mainu</span><span>03:51</span>
-                        <span><i class="fa-solid fa-2x fa-circle-play"></i></span>
+                        <span><i class="fa-solid fa-2x fa-circle-play songPlay" id="1"></i></span>
                     </div>
                     <div class="songItems">
                         <img src="cover/kesariya.jpg" alt=""><span>Kesariya</span><span>04:28</span>
-                        <span><i class="fa-solid fa-2x fa-circle-play"></i></span>
+                        <span><i class="fa-solid fa-2x fa-circle-play songPlay" id="2"></i></span>
                     </div>
                     <div class="songItems">
                         <img src="cover/maherkari.jpg" alt=""><span>Maher Kari</span><span>03:28</span>
-                        <span><i class="fa-solid fa-2x fa-circle-play"></i></span>
+                        <span><i class="fa-solid fa-2x fa-circle-play songPlay" id="3"></i></span>
                     </div>
                     <div class="songItems">
                         <img src="cover/kaisehua.jpg" alt=""><span>Kaise Hua</span><span>03:54</span>
-                        <span><i class="fa-solid fa-2x fa-circle-play"></i></span>
+                        <span><i class="fa-solid fa-2x fa-circle-play songPlay" id="4" ></i></span>
                     </div>
                     <div class="songItems">
                         <img src="cover/tajdareharam.jpeg" alt=""><span>Tajdarehram</span><span>10:16</span>
-                        <span><i class="fa-solid fa-2x fa-circle-play"></i></span>
+                        <span><i class="fa-solid fa-2x fa-circle-play songPlay" id="5"></i></span>
                     </div>
                     <div class="songItems">
                         <img src="cover/aafreen.jpg" alt=""><span>Afreen Afreen</span><span>06:40</span>
-                        <span><i class="fa-solid fa-2x fa-circle-play"></i></span>
+                        <span><i class="fa-solid fa-2x fa-circle-play songPlay" id="6"></i></span>
                     </div>
                 </div>
             </div>
@@ -61,14 +61,14 @@
 
     <section>
         <div class="bottom">
-            <input type="range" name="range" id="progressBar" min="0" max="100">
+            <input type="range" name="range" id="progressBar" min="0" max="100" value="0">
             <div class="icons">
-                <i class="fa-solid fa-3x fa-backward-step"></i>
-                <i class="fa-sharp fa-3x fa-solid fa-circle-pause"></i>
-                <i class="fa-solid fa-3x fa-forward-step"></i>
+                <i class="fa-solid fa-3x fa-backward-step" id="prev"></i>
+                <i class="fa-solid fa-3x fa-circle-play" id="playButton"></i>
+                <i class="fa-solid fa-3x fa-forward-step" id="next"></i>
             </div>
-            <div class="song-gif">
-                <img src="images/playing.gif" width="60px" alt="animi"><span>Wellerman</span> 
+            <div class="song-gif" id="gif">
+                <img src="images/playing.gif" width="60px" alt="animi"><span id="songName">Wellerman</span> 
             </div>
         </div>
     </section>
